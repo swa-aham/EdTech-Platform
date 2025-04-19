@@ -1,0 +1,14 @@
+# Before indexing
+
+Request for weekly scores for test ID 1 processed in 413 ms
+Request for monthly scores for month 4 year 2025 processed in 1683 ms
+Request for overall progress from 2025-01-01T00:00 to 2025-04-30T23:59:59 processed in 7582 ms
+Request for monthly attendance for month 4 year 2025 processed in 1663 ms
+
+
+# After indexing
+
+Request for weekly scores for test ID 1 processed in 208 ms
+Request for monthly scores for month 4 year 2025 processed in 871 ms
+Request for overall progress from 2025-01-01T00:00 to 2025-04-30T23:59:59 processed in 4403 ms
+Request for monthly attendance for month 4 year 2025 processed in 562 ms

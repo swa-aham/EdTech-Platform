@@ -1,21 +1,26 @@
-2025-04-19 22:37:59.468 INFO  com.example.lms.LmsApplication - Starting LmsApplication using Java 22.0.1 with PID 2332 (F:\Projects\lms\target\classes started by SOHAM in F:\Projects\lms)
-2025-04-19 22:37:59.474 INFO  com.example.lms.LmsApplication - No active profile set, falling back to 1 default profile: "default"
-2025-04-19 22:38:01.026 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-19 22:38:01.202 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 154 ms. Found 5 JPA repository interfaces.
-2025-04-19 22:38:02.259 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-04-19 22:38:02.293 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-04-19 22:38:02.293 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-19 22:38:02.392 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-04-19 22:38:02.392 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2804 ms
-2025-04-19 22:38:02.752 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-19 22:38:02.865 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-19 22:38:02.935 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-04-19 22:38:03.370 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-19 22:38:03.407 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-04-19 22:38:03.903 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7de3206d
-2025-04-19 22:38:03.905 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-04-19 22:38:03.999 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-19 22:38:04.050 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-20 00:23:24.554 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-20 00:23:24.682 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-20 00:23:24.713 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20 00:23:24.752 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-20 00:23:24.836 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-20 00:23:30.149 INFO  com.example.lms.LmsApplication - Starting LmsApplication using Java 22.0.1 with PID 5500 (F:\Projects\lms\target\classes started by SOHAM in F:\Projects\lms)
+2025-04-20 00:23:30.154 INFO  com.example.lms.LmsApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-20 00:23:32.330 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-20 00:23:32.500 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 150 ms. Found 5 JPA repository interfaces.
+2025-04-20 00:23:33.640 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-20 00:23:33.673 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-20 00:23:33.673 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-20 00:23:33.805 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-20 00:23:33.805 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3365 ms
+2025-04-20 00:23:34.228 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-20 00:23:34.376 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-20 00:23:34.462 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-20 00:23:35.139 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-20 00:23:35.169 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-20 00:23:35.893 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@595814a1
+2025-04-20 00:23:35.895 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-20 00:23:35.983 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-20 00:23:36.048 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.41
@@ -23,16 +28,16 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-19 22:38:05.521 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-19 22:38:05.655 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-19 22:38:06.113 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-04-19 22:38:07.158 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-19 22:38:07.791 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-04-19 22:38:07.804 INFO  com.example.lms.LmsApplication - Started LmsApplication in 9.467 seconds (process running for 10.156)
-2025-04-19 22:39:55.124 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-19 22:39:55.124 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-04-19 22:39:55.132 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
-2025-04-19 22:39:55.740 INFO  c.e.lms.controller.ReportController - Request for weekly scores for test ID 1 processed in 413 ms
-2025-04-19 22:40:14.437 INFO  c.e.lms.controller.ReportController - Request for monthly scores for month 4 year 2025 processed in 1683 ms
-2025-04-19 22:40:36.800 INFO  c.e.lms.controller.ReportController - Request for overall progress from 2025-01-01T00:00 to 2025-04-30T23:59:59 processed in 7582 ms
-2025-04-19 22:40:57.442 INFO  c.e.lms.controller.ReportController - Request for monthly attendance for month 4 year 2025 processed in 1663 ms
+2025-04-20 00:23:37.501 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-20 00:23:37.635 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20 00:23:38.262 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-20 00:23:39.658 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-20 00:23:41.823 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-20 00:23:41.942 INFO  com.example.lms.LmsApplication - Started LmsApplication in 13.091 seconds (process running for 13.882)
+2025-04-20 00:23:58.737 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20 00:23:58.737 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-20 00:23:58.739 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-20 00:23:59.021 INFO  c.e.lms.controller.ReportController - Request for weekly scores for test ID 1 processed in 208 ms
+2025-04-20 00:24:05.952 INFO  c.e.lms.controller.ReportController - Request for monthly scores for month 4 year 2025 processed in 871 ms
+2025-04-20 00:24:15.446 INFO  c.e.lms.controller.ReportController - Request for overall progress from 2025-01-01T00:00 to 2025-04-30T23:59:59 processed in 4403 ms
+2025-04-20 00:24:19.581 INFO  c.e.lms.controller.ReportController - Request for monthly attendance for month 4 year 2025 processed in 562 ms
