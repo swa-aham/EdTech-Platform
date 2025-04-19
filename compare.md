@@ -1,4 +1,4 @@
-| Short Name           | API Endpoint                                                      | Time Before Indexing (ms) | Time After Indexing (ms) | Improvement (ms) | Improvement (%) |
+| Request           | API Endpoint                                                      | Time Before Indexing (ms) | Time After Indexing (ms) | Improvement (ms) | Improvement (%) |
 |----------------------|-------------------------------------------------------------------|---------------------------|--------------------------|--------------------|-----------------|
 | Weekly Scores        | GET /api/reports/weekly-scores?testId=1                           | 413                       | 208                      | 205                | 49.64%          |
 | Monthly Scores       | GET /api/reports/monthly-scores?month=4&year=2025               | 1683                      | 871                      | 812                | 48.25%          |
