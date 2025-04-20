@@ -1,0 +1,202 @@
+2025-04-20 14:27:48.161 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20 14:27:48.161 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-20 14:27:48.161 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-20 14:27:48.239 INFO  c.example.lms.service.ReportService - Checking Redis cache for key: weekly_scores:1
+2025-04-20 14:27:48.985 INFO  c.example.lms.service.ReportService - Cache miss for key: weekly_scores:1
+2025-04-20 14:27:49.195 INFO  c.example.lms.service.ReportService - Caching result for key: weekly_scores:1 with TTL: 3600 seconds
+2025-04-20 14:27:49.295 INFO  c.e.lms.controller.ReportController - Request for weekly scores for test ID 1 processed in 1054 ms
+2025-04-20 14:27:49.349 INFO  c.example.lms.service.ReportService - Checking Redis cache for key: monthly_scores:2025:4
+2025-04-20 14:27:49.352 INFO  c.example.lms.service.ReportService - Cache miss for key: monthly_scores:2025:4
+2025-04-20 14:27:50.670 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.678 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.692 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.698 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.706 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.714 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.722 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.727 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.743 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.753 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.758 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.766 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.773 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.780 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.787 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.791 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.799 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.805 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.816 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.848 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.854 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.862 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.868 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.875 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.880 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.885 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.893 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.898 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.917 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.923 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.930 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.940 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.948 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.954 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.968 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.974 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.980 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:50.988 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.000 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.008 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.015 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.019 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.034 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.057 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.068 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.075 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.080 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.089 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.097 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.103 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.112 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.131 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.153 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.159 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.164 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.172 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.176 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.182 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.186 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.205 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.209 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.215 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.219 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.224 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.229 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.233 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.238 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.242 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.247 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.251 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.258 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.263 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.269 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.277 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.283 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.291 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.297 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.304 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.310 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.317 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.325 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.329 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.338 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.344 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.350 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.354 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.359 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.364 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.368 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.374 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.383 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.388 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.391 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.397 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.401 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.407 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.417 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.425 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.431 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.434 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.438 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.442 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.449 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.456 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.476 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.496 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.514 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.522 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.526 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.533 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.537 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.641 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.646 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.650 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.654 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.679 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.687 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.697 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.703 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.720 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.730 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.765 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.774 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.783 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.789 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.796 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.800 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.804 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.809 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.813 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.817 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.822 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.824 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.829 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.835 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.837 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.841 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.845 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.851 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.855 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.859 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.864 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.870 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.874 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.882 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.886 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.894 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.898 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.902 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.914 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.928 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.934 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.940 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.948 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.953 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.965 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.973 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.982 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.989 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:51.996 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:52.004 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_scores:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:52.012 INFO  c.e.lms.controller.ReportController - Request for monthly scores for month 4 year 2025 processed in 2663 ms
+2025-04-20 14:27:52.086 INFO  c.example.lms.service.ReportService - Checking Redis cache for key: overall_progress:2025-01-01T00:00:2025-04-30T23:59:59
+2025-04-20 14:27:52.092 INFO  c.example.lms.service.ReportService - Cache miss for key: overall_progress:2025-01-01T00:00:2025-04-30T23:59:59
+2025-04-20 14:27:55.935 INFO  c.example.lms.service.ReportService - Caching result for key: overall_progress:2025-01-01T00:00:2025-04-30T23:59:59 with TTL: 86400 seconds
+2025-04-20 14:27:56.083 INFO  c.e.lms.controller.ReportController - Request for overall progress from 2025-01-01T00:00 to 2025-04-30T23:59:59 processed in 3996 ms
+2025-04-20 14:27:56.292 INFO  c.example.lms.service.ReportService - Checking Redis cache for key: monthly_attendance:2025:4
+2025-04-20 14:27:56.292 INFO  c.example.lms.service.ReportService - Cache miss for key: monthly_attendance:2025:4
+2025-04-20 14:27:57.341 INFO  c.example.lms.service.ReportService - Caching result for key: monthly_attendance:2025:4 with TTL: 86400 seconds
+2025-04-20 14:27:57.497 INFO  c.e.lms.controller.ReportController - Request for monthly attendance for month 4 year 2025 processed in 1207 ms
+
+
+## Python Script output
+
+Starting API request execution at: 2025-04-20 14:27:48
+
+Hitting API: Weekly Scores - http://localhost:8080/api/reports/weekly-scores?testId=1
+  Status Code: 200
+  Time Taken: 1.2868 seconds
+
+Hitting API: Monthly Scores - http://localhost:8080/api/reports/monthly-scores?month=4&year=2025
+  Status Code: 200
+  Time Taken: 2.6856 seconds
+
+Hitting API: Overall Progress - http://localhost:8080/api/reports/overall-progress?startTimestamp=2025-01-01T00:00:00&endTimestamp=2025-04-30T23:59:59
+  Status Code: 200
+  Time Taken: 4.1020 seconds
+
+Hitting API: Monthly Attendance - http://localhost:8080/api/reports/monthly-attendance?month=4&year=2025
+  Status Code: 200
+  Time Taken: 1.5908 seconds
+
+Finished API request execution at: 2025-04-20 14:27:57

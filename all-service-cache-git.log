@@ -1,0 +1,35 @@
+2025-04-20 14:30:29.901 INFO  c.example.lms.service.ReportService - Checking Redis cache for key: weekly_scores:1
+2025-04-20 14:30:29.964 INFO  c.example.lms.service.ReportService - Cache hit for key: weekly_scores:1
+2025-04-20 14:30:29.965 INFO  c.e.lms.controller.ReportController - Request for weekly scores for test ID 1 processed in 55 ms
+2025-04-20 14:30:29.977 INFO  c.example.lms.service.ReportService - Checking Redis cache for key: monthly_scores:2025:4
+2025-04-20 14:30:29.992 INFO  c.example.lms.service.ReportService - Cache hit for key: monthly_scores:2025:4
+2025-04-20 14:30:29.992 INFO  c.e.lms.controller.ReportController - Request for monthly scores for month 4 year 2025 processed in 14 ms
+2025-04-20 14:30:30.012 INFO  c.example.lms.service.ReportService - Checking Redis cache for key: overall_progress:2025-01-01T00:00:2025-04-30T23:59:59
+2025-04-20 14:30:30.058 INFO  c.example.lms.service.ReportService - Cache hit for key: overall_progress:2025-01-01T00:00:2025-04-30T23:59:59
+2025-04-20 14:30:30.058 INFO  c.e.lms.controller.ReportController - Request for overall progress from 2025-01-01T00:00 to 2025-04-30T23:59:59 processed in 52 ms
+2025-04-20 14:30:30.086 INFO  c.example.lms.service.ReportService - Checking Redis cache for key: monthly_attendance:2025:4
+2025-04-20 14:30:30.280 INFO  c.example.lms.service.ReportService - Cache hit for key: monthly_attendance:2025:4
+2025-04-20 14:30:30.280 INFO  c.e.lms.controller.ReportController - Request for monthly attendance for month 4 year 2025 processed in 194 ms
+
+
+## Python script output
+
+Starting API request execution at: 2025-04-20 14:30:29
+
+Hitting API: Weekly Scores - http://localhost:8080/api/reports/weekly-scores?testId=1
+  Status Code: 200
+  Time Taken: 0.0874 seconds
+
+Hitting API: Monthly Scores - http://localhost:8080/api/reports/monthly-scores?month=4&year=2025
+  Status Code: 200
+  Time Taken: 0.0237 seconds
+
+Hitting API: Overall Progress - http://localhost:8080/api/reports/overall-progress?startTimestamp=2025-01-01T00:00:00&endTimestamp=2025-04-30T23:59:59
+  Status Code: 200
+  Time Taken: 0.0719 seconds
+
+Hitting API: Monthly Attendance - http://localhost:8080/api/reports/monthly-attendance?month=4&year=2025
+  Status Code: 200
+  Time Taken: 0.2817 seconds
+
+Finished API request execution at: 2025-04-20 14:30:30
