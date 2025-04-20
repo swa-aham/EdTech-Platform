@@ -87,6 +87,18 @@ public class ReportService {
      * @return List of MonthlyScoreDTO objects containing student names and their scores for each test
      */
     public List<MonthlyScoreDTO> getMonthlyScores(int month, int year) {
+
+        String cacheKey = "monthly_scores:" + year + ":" + month;
+
+        logger.info("Checking Redis cache for key: {}", cacheKey);
+        List<MonthlyScoreDTO> cachedScores = redisService.get(cacheKey, List.class);
+
+        if (cachedScores != null) {
+            logger.info("Cache hit for key: {}", cacheKey);
+            return cachedScores;
+        }
+
+        logger.info("Cache miss for key: {}", cacheKey);
         // Get start and end date for the specified month
         LocalDate startDate = LocalDate.of(year, month, 1);
         LocalDate endDate = YearMonth.of(year, month).atEndOfMonth();
@@ -123,6 +135,9 @@ public class ReportService {
                 testScores.put(testName, submission.getScore());
             }
 
+            // Cache the result in Redis for 1 day (86400 seconds)
+            logger.info("Caching result for key: {} with TTL: {} seconds", cacheKey, 86400L);
+            redisService.set(cacheKey, result, 86400L);
             result.add(new MonthlyScoreDTO(studentId, studentName, testScores));
         }
 
@@ -136,6 +151,17 @@ public class ReportService {
      * @return List of AttendanceRecordDTO objects containing student names and their attendance status for each day
      */
     public List<AttendanceRecordDTO> getMonthlyAttendance(int month, int year) {
+
+        String cacheKey = "monthly_attendance:" + year + ":" + month;
+        logger.info("Checking Redis cache for key: {}", cacheKey);
+        List<AttendanceRecordDTO> cachedResult = redisService.get(cacheKey, List.class);
+
+        if (cachedResult != null) {
+            logger.info("Cache hit for key: {}", cacheKey);
+            return cachedResult;
+        }
+        logger.info("Cache miss for key: {}", cacheKey);
+
         // Get start and end date for the specified month
         LocalDate startDate = LocalDate.of(year, month, 1);
         LocalDate endDate = YearMonth.of(year, month).atEndOfMonth();
@@ -181,6 +207,11 @@ public class ReportService {
             result.add(new AttendanceRecordDTO(studentId, studentName, attendanceByDate));
         }
 
+
+        // Cache the result in Redis for 1 day (86400 seconds)
+        logger.info("Caching result for key: {} with TTL: {} seconds", cacheKey, 86400L);
+        redisService.set(cacheKey, result, 86400L);
+
         return result;
     }
 
@@ -191,6 +222,19 @@ public class ReportService {
      * @return List of OverallProgressDTO objects containing student names and their average scores
      */
     public List<OverallProgressDTO> getOverallProgress(LocalDateTime startDate, LocalDateTime endDate) {
+        
+        
+        String cacheKey = "overall_progress:" + startDate + ":" + endDate;
+        logger.info("Checking Redis cache for key: {}", cacheKey);
+        List<OverallProgressDTO> cachedResult = redisService.get(cacheKey, List.class);
+        if (cachedResult != null) {
+            logger.info("Cache hit for key: {}", cacheKey);
+            return cachedResult;
+        }
+
+        logger.info("Cache miss for key: {}", cacheKey);
+        // Get all submissions within the date range
+        
         // Find all students
         List<User> students = userRepository.findByRole(User.Role.student);
         List<OverallProgressDTO> result = new ArrayList<>();
@@ -225,6 +269,10 @@ public class ReportService {
                     averageScore,
                     submissions.size()));
         }
+
+        // Cache the result in Redis for 1 day (86400 seconds)
+        logger.info("Caching result for key: {} with TTL: {} seconds", cacheKey, 86400L);
+        redisService.set(cacheKey, result, 86400L);
 
         return result;
     }
