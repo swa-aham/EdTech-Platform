@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 @Slf4j
@@ -37,6 +38,32 @@ public class RedisService {
             redisTemplate.opsForValue().set(key, jsonValue, ttl, TimeUnit.SECONDS);
         } catch (Exception e) {
             log.error("Exception in Redis set operation", e);
+        }
+    }
+
+    public boolean delete(String key) {
+        try {
+            Boolean result = redisTemplate.delete(key);
+            log.info("Deleted cache for key: {}, result: {}", key, result);
+            return Boolean.TRUE.equals(result);
+        } catch (Exception e) {
+            log.error("Exception in Redis delete operation", e);
+            return false;
+        }
+    }
+
+    public Long deleteByPattern(String pattern) {
+        try {
+            Set<String> keys = redisTemplate.keys(pattern);
+            if (keys != null && !keys.isEmpty()) {
+                Long deletedCount = redisTemplate.delete(keys);
+                log.info("Deleted {} keys matching pattern: {}", deletedCount, pattern);
+                return deletedCount;
+            }
+            return 0L;
+        } catch (Exception e) {
+            log.error("Exception in Redis pattern delete operation", e);
+            return 0L;
         }
     }
 }
