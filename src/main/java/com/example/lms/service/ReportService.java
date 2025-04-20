@@ -14,6 +14,9 @@ import com.example.lms.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.LocalDate;
@@ -26,6 +29,8 @@ import java.util.stream.Collectors;
 @Service
 public class ReportService {
 
+    private static final Logger logger = LoggerFactory.getLogger(ReportService.class);
+
     @Autowired
     private TestSubmissionRepository testSubmissionRepository;
 
@@ -35,21 +40,44 @@ public class ReportService {
     @Autowired
     private UserRepository userRepository;
 
+    @Autowired
+    private RedisService redisService;
+
     /**
      * Generates a report of student scores for a specific weekly test
      * @param testId The ID of the test
      * @return List of StudentScoreDTO objects containing student names and scores
      */
     public List<StudentScoreDTO> getWeeklyScores(Integer testId) {
+
+        String cacheKey = "weekly_scores:" + testId;
+
+        // Check if the scores are already cached in Redis
+        logger.info("Checking Redis cache for key: {}", cacheKey);
+        List<StudentScoreDTO> cachedScores = redisService.get(cacheKey, List.class);
+
+        if (cachedScores != null) {
+            logger.info("Cache hit for key: {}", cacheKey);
+            return cachedScores;
+        }
+
+        logger.info("Cache miss for key: {}", cacheKey);
+        // If not cached, fetch from the database
         List<TestSubmission> submissions = testSubmissionRepository.findByWeeklyTestTestId(testId);
 
-        return submissions.stream()
+        List<StudentScoreDTO> scores = submissions.stream()
                 .map(submission -> new StudentScoreDTO(
                         submission.getUser().getUserId(),
                         submission.getUser().getFullName(),
                         submission.getScore(),
                         submission.getWeeklyTest().getTestName()))
                 .collect(Collectors.toList());
+
+        // Cache the scores in Redis for 1 hour
+        logger.info("Caching result for key: {} with TTL: {} seconds", cacheKey, 3600L);
+        redisService.set(cacheKey, scores, 3600L);
+
+        return scores;
     }
 
     /**
