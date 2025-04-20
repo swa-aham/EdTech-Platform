@@ -1,16 +1,12 @@
-2025-04-20 13:12:05.215 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-20 13:12:05.215 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-04-20 13:12:05.217 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2025-04-20 13:12:05.271 INFO  c.example.lms.service.ReportService - Checking Redis cache for key: weekly_scores:1
-2025-04-20 13:12:05.852 INFO  c.example.lms.service.ReportService - Cache miss for key: weekly_scores:1
-2025-04-20 13:12:05.997 INFO  c.example.lms.service.ReportService - Caching result for key: weekly_scores:1 with TTL: 3600 seconds
-2025-04-20 13:12:06.057 INFO  c.e.lms.controller.ReportController - Request for weekly scores for test ID 1 processed in 786 ms
-2025-04-20 13:12:06.812 INFO  c.e.lms.controller.ReportController - Request for monthly scores for month 4 year 2025 processed in 721 ms
-2025-04-20 13:12:10.470 INFO  c.e.lms.controller.ReportController - Request for overall progress from 2025-01-01T00:00 to 2025-04-30T23:59:59 processed in 3609 ms
-2025-04-20 13:12:10.990 INFO  c.e.lms.controller.ReportController - Request for monthly attendance for month 4 year 2025 processed in 485 ms
-2025-04-20 13:12:58.425 INFO  c.example.lms.service.ReportService - Checking Redis cache for key: weekly_scores:1
-2025-04-20 13:12:58.472 INFO  c.example.lms.service.ReportService - Cache hit for key: weekly_scores:1
-2025-04-20 13:12:58.472 INFO  c.e.lms.controller.ReportController - Request for weekly scores for test ID 1 processed in 47 ms
-2025-04-20 13:12:58.817 INFO  c.e.lms.controller.ReportController - Request for monthly scores for month 4 year 2025 processed in 328 ms
-2025-04-20 13:13:01.973 INFO  c.e.lms.controller.ReportController - Request for overall progress from 2025-01-01T00:00 to 2025-04-30T23:59:59 processed in 3145 ms
-2025-04-20 13:13:02.626 INFO  c.e.lms.controller.ReportController - Request for monthly attendance for month 4 year 2025 processed in 611 ms
+2025-04-20 14:30:29.901 INFO  c.example.lms.service.ReportService - Checking Redis cache for key: weekly_scores:1
+2025-04-20 14:30:29.964 INFO  c.example.lms.service.ReportService - Cache hit for key: weekly_scores:1
+2025-04-20 14:30:29.965 INFO  c.e.lms.controller.ReportController - Request for weekly scores for test ID 1 processed in 55 ms
+2025-04-20 14:30:29.977 INFO  c.example.lms.service.ReportService - Checking Redis cache for key: monthly_scores:2025:4
+2025-04-20 14:30:29.992 INFO  c.example.lms.service.ReportService - Cache hit for key: monthly_scores:2025:4
+2025-04-20 14:30:29.992 INFO  c.e.lms.controller.ReportController - Request for monthly scores for month 4 year 2025 processed in 14 ms
+2025-04-20 14:30:30.012 INFO  c.example.lms.service.ReportService - Checking Redis cache for key: overall_progress:2025-01-01T00:00:2025-04-30T23:59:59
+2025-04-20 14:30:30.058 INFO  c.example.lms.service.ReportService - Cache hit for key: overall_progress:2025-01-01T00:00:2025-04-30T23:59:59
+2025-04-20 14:30:30.058 INFO  c.e.lms.controller.ReportController - Request for overall progress from 2025-01-01T00:00 to 2025-04-30T23:59:59 processed in 52 ms
+2025-04-20 14:30:30.086 INFO  c.example.lms.service.ReportService - Checking Redis cache for key: monthly_attendance:2025:4
+2025-04-20 14:30:30.280 INFO  c.example.lms.service.ReportService - Cache hit for key: monthly_attendance:2025:4
+2025-04-20 14:30:30.280 INFO  c.e.lms.controller.ReportController - Request for monthly attendance for month 4 year 2025 processed in 194 ms
