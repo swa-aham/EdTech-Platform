@@ -1,0 +1,19 @@
+Starting API request execution at: 2025-04-20 12:44:50
+
+Hitting API: Weekly Scores - http://localhost:8080/api/reports/weekly-scores?testId=1
+  Status Code: 200
+  Time Taken: 2.9162 seconds
+
+Hitting API: Monthly Scores - http://localhost:8080/api/reports/monthly-scores?month=4&year=2025
+  Status Code: 200
+  Time Taken: 2.0251 seconds
+
+Hitting API: Overall Progress - http://localhost:8080/api/reports/overall-progress?startTimestamp=2025-01-01T00:00:00&endTimestamp=2025-04-30T23:59:59
+  Status Code: 200
+  Time Taken: 8.3802 seconds
+
+Hitting API: Monthly Attendance - http://localhost:8080/api/reports/monthly-attendance?month=4&year=2025
+  Status Code: 200
+  Time Taken: 1.5587 seconds
+
+Finished API request execution at: 2025-04-20 12:45:05
